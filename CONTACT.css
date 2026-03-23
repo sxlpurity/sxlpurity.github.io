@@ -49,3 +49,82 @@
 @media (max-width: 767px) {
 
 }
+@media (max-width: 767px) {
+
+  .u-menu .u-hamburger-link {
+    color: #8b0000 !important;
+  }
+
+  .u-menu .u-hamburger-link svg,
+  .u-menu .u-hamburger-link .u-svg-content {
+    fill: #8b0000 !important;
+  }
+ @media (max-width: 767px) {
+ 
+  /* Цвет текста меню */
+  .u-nav-container-collapse .u-nav-link {
+    color: #8b0000 !important;
+  }
+
+  /* При наведении / активном состоянии */
+  .u-nav-container-collapse .u-nav-link:hover,
+  .u-nav-container-collapse .u-nav-link:active {
+    color: #b11226 !important;
+  }
+  /* ===== MENU FONT STYLE — ALL VERSIONS ===== */
+
+/* Основные пункты меню */
+.u-nav-link {
+  font-family: 'Monaco', monospace !important;
+  text-transform: uppercase !important;
+  letter-spacing: 3px !important;
+}
+
+/* Мобильное выпадающее меню */
+.u-nav-container-collapse .u-nav-link {
+  font-family: 'Monaco', monospace !important;
+  text-transform: uppercase !important;
+  letter-spacing: 3px !important;
+}
+
+/* Цвет текста меню */
+.u-nav-link,
+.u-nav-container-collapse .u-nav-link {
+  color: #8b0000 !important;
+}
+
+/* Hover / active */
+.u-nav-link:hover,
+.u-nav-link:active,
+.u-nav-container-collapse .u-nav-link:hover,
+.u-nav-container-collapse .u-nav-link:active {
+  color: #b11226 !important;
+}
+  /* ===== FOOTER STYLE (ALL PAGES) ===== */
+
+/* Текст футера */
+.u-footer .u-text {
+  font-family: 'Monaco', monospace !important;
+  text-transform: uppercase !important;
+  letter-spacing: 3px !important;
+  color: #8b0000 !important;
+}
+
+/* Кнопка LISTEN */
+.u-footer .u-btn {
+  font-family: 'Monaco', monospace !important;
+  text-transform: uppercase !important;
+  letter-spacing: 3px !important;
+
+  color: #8b0000 !important;
+  border-color: #8b0000 !important;
+  background-color: transparent !important;
+}
+
+/* Hover эффект */
+.u-footer .u-btn:hover {
+  color: black !important;
+  background-color: #8b0000 !important;
+  border-color: #8b0000 !important;
+}
+}
