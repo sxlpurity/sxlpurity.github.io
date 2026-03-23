@@ -203,3 +203,61 @@
   color: black !important;
   border-color: #8b0000 !important;
 }
+/* ===== CONTACT FORM — ALL DEVICES ===== */
+
+/* Лейблы */
+.u-form label {
+  font-family: 'Monaco', monospace !important;
+  color: #8b0000 !important;
+}
+
+/* Поля */
+.u-form input,
+.u-form textarea {
+  font-family: 'Monaco', monospace !important;
+  background-color: black !important;
+  color: #8b0000 !important;
+  border: 1px solid #8b0000 !important;
+}
+
+/* Placeholder */
+.u-form input::placeholder,
+.u-form textarea::placeholder {
+  color: rgba(139, 0, 0, 0.6) !important;
+}
+
+/* Focus */
+.u-form input:focus,
+.u-form textarea:focus {
+  outline: none !important;
+  border-color: #b11226 !important;
+}
+
+/* Submit кнопка */
+.u-form input[type="submit"],
+.u-form button,
+.u-form .u-btn-submit {
+  font-family: 'Monaco', monospace !important;
+  color: #8b0000 !important;
+  background-color: transparent !important;
+  border: 1px solid #8b0000 !important;
+}
+
+/* Hover */
+.u-form input[type="submit"]:hover,
+.u-form button:hover,
+.u-form .u-btn-submit:hover {
+  background-color: #8b0000 !important;
+  color: black !important;
+}
+
+/* Иконки */
+.u-social-icons .u-icon {
+  color: #8b0000 !important;
+  border-color: #8b0000 !important;
+}
+
+.u-social-icons .u-icon:hover {
+  color: #b11226 !important;
+  border-color: #b11226 !important;
+}
