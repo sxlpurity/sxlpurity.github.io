@@ -97,4 +97,31 @@
 .u-nav-container-collapse .u-nav-link:active {
   color: #b11226 !important;
 }
+  /* ===== FOOTER STYLE (ALL PAGES) ===== */
+
+/* Текст футера */
+.u-footer .u-text {
+  font-family: 'Monaco', monospace !important;
+  text-transform: uppercase !important;
+  letter-spacing: 3px !important;
+  color: #8b0000 !important;
+}
+
+/* Кнопка LISTEN */
+.u-footer .u-btn {
+  font-family: 'Monaco', monospace !important;
+  text-transform: uppercase !important;
+  letter-spacing: 3px !important;
+
+  color: #8b0000 !important;
+  border-color: #8b0000 !important;
+  background-color: transparent !important;
+}
+
+/* Hover эффект */
+.u-footer .u-btn:hover {
+  color: black !important;
+  background-color: #8b0000 !important;
+  border-color: #8b0000 !important;
+}
 }
