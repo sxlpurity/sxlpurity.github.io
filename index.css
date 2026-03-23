@@ -68,4 +68,33 @@
   .u-nav-container-collapse .u-nav-link:active {
     color: #b11226 !important;
   }
+  /* ===== MENU FONT STYLE — ALL VERSIONS ===== */
+
+/* Основные пункты меню */
+.u-nav-link {
+  font-family: 'Monaco', monospace !important;
+  text-transform: uppercase !important;
+  letter-spacing: 3px !important;
+}
+
+/* Мобильное выпадающее меню */
+.u-nav-container-collapse .u-nav-link {
+  font-family: 'Monaco', monospace !important;
+  text-transform: uppercase !important;
+  letter-spacing: 3px !important;
+}
+
+/* Цвет текста меню */
+.u-nav-link,
+.u-nav-container-collapse .u-nav-link {
+  color: #8b0000 !important;
+}
+
+/* Hover / active */
+.u-nav-link:hover,
+.u-nav-link:active,
+.u-nav-container-collapse .u-nav-link:hover,
+.u-nav-container-collapse .u-nav-link:active {
+  color: #b11226 !important;
+}
 }
