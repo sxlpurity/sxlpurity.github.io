@@ -56,6 +56,7 @@
   .u-menu .u-hamburger-link .u-svg-content {
     fill: #8b0000 !important;
   }
+ @media (max-width: 767px) {
   /* Цвет текста меню */
   .u-nav-container-collapse .u-nav-link {
     color: #8b0000 !important;
