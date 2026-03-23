@@ -127,4 +127,59 @@
   background-color: #8b0000 !important;
   border-color: #8b0000 !important;
 }
+/* ===== CONTACT FORM STYLE ===== */
+
+/* Лейблы (Name, Email, Message) */
+.u-form label {
+  font-family: 'Monaco', monospace !important;
+  color: #8b0000 !important;
+}
+
+/* Поля ввода */
+.u-form input,
+.u-form textarea {
+  font-family: 'Monaco', monospace !important;
+  background-color: black !important;
+  color: #8b0000 !important;
+  border: 1px solid #8b0000 !important;
+}
+
+/* Placeholder текст */
+.u-form input::placeholder,
+.u-form textarea::placeholder {
+  color: rgba(139, 0, 0, 0.6) !important;
+}
+
+/* Фокус (когда кликаешь) */
+.u-form input:focus,
+.u-form textarea:focus {
+  outline: none !important;
+  border-color: #b11226 !important;
+}
+
+/* Кнопка Submit */
+.u-form .u-btn {
+  font-family: 'Monaco', monospace !important;
+  color: #8b0000 !important;
+  background-color: transparent !important;
+  border: 1px solid #8b0000 !important;
+}
+
+/* Hover кнопки */
+.u-form .u-btn:hover {
+  background-color: #8b0000 !important;
+  color: black !important;
+}
+
+/* ===== ИКОНКИ (Instagram + Email) ===== */
+
+.u-social-icons .u-icon {
+  color: #8b0000 !important;
+  border-color: #8b0000 !important;
+}
+
+/* Hover иконок */
+.u-social-icons .u-icon:hover {
+  color: #b11226 !important;
+  border-color: #b11226 !important;
 }
